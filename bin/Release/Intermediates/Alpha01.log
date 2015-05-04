@@ -1,0 +1,75 @@
+﻿Build started 4/21/2015 11:08:18 PM.
+     1>Project "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\Alpha01\Alpha01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\\" /Fd"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Window.cpp
+         Window.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
+                 c:\users\paul\documents\visual studio 2013\projects\alpha01\dependencies\sdl2\include\SDL_stdinc.h(350) : see previous definition of 'M_PI'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Alpha01.exe" /NOLOGO SDL2.lib SDL2main.lib glew32s.lib opengl32.lib FreeImage.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Alpha01.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Alpha01.lib" /MACHINE:X86 /SAFESEH "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\buffer.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\platform.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\texture-atlas.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\texture-font.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\vector.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\autofit.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftbase.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftbbox.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftbitmap.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftdebug.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftfstype.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftgasp.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftglyph.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftgxval.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftinit.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftlcdfil.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftmm.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftotval.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftpatent.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftpfr.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftstroke.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftsynth.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftsystem.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\fttype1.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftwinfnt.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftxf86.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\bdf.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftcache.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\cff.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\type1cid.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftgzip.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\ftlzw.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\pcf.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\pfr.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\psaux.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\pshinter.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\psmodule.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\raster.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\sfnt.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\smooth.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\truetype.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\type1.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\type42.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\winfnt.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\font.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\font_manager.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\game.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\indexbuffer.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\main.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\mat4.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\shader.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\texture.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\vec2.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\vec3.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\vec4.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\vertexarray.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Intermediates\Window.obj"
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\vc120.pdb'; linking object as if no debug info
+         Alpha01.vcxproj -> C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Release\Alpha01.exe
+     1>Done Building Project "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\Alpha01\Alpha01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.50

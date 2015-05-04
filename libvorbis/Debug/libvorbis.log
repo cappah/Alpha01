@@ -1,0 +1,26 @@
+﻿Build started 4/16/2015 9:30:07 AM.
+     1>Project "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\libvorbis\libvorbis.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\mapping0.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\tone.c"
+         tone.c
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(18): warning C4013: 'alloca' undefined; assuming extern returning int
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(18): warning C4047: '=' : 'double *' differs in levels of indirection from 'int'
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(19): warning C4047: '=' : 'double *' differs in levels of indirection from 'int'
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(40): error C2065: 'M_PI' : undeclared identifier
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(40): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(41): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(43): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\tone.c(44): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         mapping0.c
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\mapping0.c(277): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\mapping0.c(317): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\mapping0.c(334): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\mapping0.c(390): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\mapping0.c(694): error C4703: potentially uninitialized local pointer variable 'mag_memo' used
+     1>c:\c++ libraries\sparkies\episode 24\sparky-master\dependencies\libvorbis\lib\mapping0.c(694): error C4703: potentially uninitialized local pointer variable 'mag_sort' used
+     1>Done Building Project "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\libvorbis\libvorbis.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

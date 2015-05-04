@@ -1,0 +1,88 @@
+﻿Build started 4/16/2015 3:23:27 AM.
+     1>Project "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\ProjectA\ProjectA.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\ProjectA.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib glew32s.lib opengl32.lib FreeImage.lib OpenAL32.lib libvorbis.lib libogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\ProjectA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\ProjectA.lib" /MACHINE:X86 "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\BatchRenderer2D.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\buffer.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\platform.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\texture-atlas.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\texture-font.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\vector.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\autofit.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftbase.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftbbox.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftbitmap.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftdebug.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftfstype.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftgasp.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftglyph.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftgxval.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftinit.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftlcdfil.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftmm.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftotval.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftpatent.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftpfr.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftstroke.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftsynth.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftsystem.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\fttype1.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftwinfnt.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftxf86.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\bdf.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftcache.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\cff.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\type1cid.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftgzip.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\ftlzw.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\pcf.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\pfr.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\psaux.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\pshinter.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\psmodule.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\raster.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\sfnt.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\smooth.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\truetype.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\type1.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\type42.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\winfnt.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\font.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\font_manager.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\game.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\group.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\indexbuffer.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\label.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\layer.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\main.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\mat4.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\shader.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\sound.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\sound_manager.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\sprite.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\texture.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\tilelayer.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\vec2.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\vec3.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\vec4.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\vertexarray.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\Intermediates\Window.obj"
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>sound.obj : error LNK2019: unresolved external symbol _ga_sound_release referenced in function "public: __thiscall gearengine::audio::Sound::~Sound(void)" (??1Sound@audio@gearengine@@QAE@XZ)
+     1>sound.obj : error LNK2019: unresolved external symbol _ga_handle_destroy referenced in function "void __cdecl gearengine::audio::loop_on_finish(struct ga_Handle *,void *)" (?loop_on_finish@audio@gearengine@@YAXPAUga_Handle@@PAX@Z)
+     1>sound.obj : error LNK2019: unresolved external symbol _ga_handle_play referenced in function "public: void __thiscall gearengine::audio::Sound::loop(void)" (?loop@Sound@audio@gearengine@@QAEXXZ)
+     1>sound.obj : error LNK2019: unresolved external symbol _ga_handle_stop referenced in function "public: void __thiscall gearengine::audio::Sound::pause(void)" (?pause@Sound@audio@gearengine@@QAEXXZ)
+     1>sound.obj : error LNK2019: unresolved external symbol _ga_handle_setParamf referenced in function "public: void __thiscall gearengine::audio::Sound::setGain(float)" (?setGain@Sound@audio@gearengine@@QAEXM@Z)
+     1>sound.obj : error LNK2019: unresolved external symbol _gau_load_sound_file referenced in function "public: __thiscall gearengine::audio::Sound::Sound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Sound@audio@gearengine@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+     1>sound.obj : error LNK2019: unresolved external symbol _gau_create_handle_sound referenced in function "public: void __thiscall gearengine::audio::Sound::loop(void)" (?loop@Sound@audio@gearengine@@QAEXXZ)
+     1>sound_manager.obj : error LNK2019: unresolved external symbol _gc_initialize referenced in function "public: static void __cdecl gearengine::audio::SoundManager::init(void)" (?init@SoundManager@audio@gearengine@@SAXXZ)
+     1>sound_manager.obj : error LNK2019: unresolved external symbol _gc_shutdown referenced in function "public: static void __cdecl gearengine::audio::SoundManager::clean(void)" (?clean@SoundManager@audio@gearengine@@SAXXZ)
+     1>sound_manager.obj : error LNK2019: unresolved external symbol _gau_manager_create referenced in function "public: static void __cdecl gearengine::audio::SoundManager::init(void)" (?init@SoundManager@audio@gearengine@@SAXXZ)
+     1>sound_manager.obj : error LNK2019: unresolved external symbol _gau_manager_update referenced in function "public: static void __cdecl gearengine::audio::SoundManager::update(void)" (?update@SoundManager@audio@gearengine@@SAXXZ)
+     1>sound_manager.obj : error LNK2019: unresolved external symbol _gau_manager_mixer referenced in function "public: static void __cdecl gearengine::audio::SoundManager::init(void)" (?init@SoundManager@audio@gearengine@@SAXXZ)
+     1>sound_manager.obj : error LNK2019: unresolved external symbol _gau_manager_destroy referenced in function "public: static void __cdecl gearengine::audio::SoundManager::clean(void)" (?clean@SoundManager@audio@gearengine@@SAXXZ)
+     1>C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\bin\Debug\ProjectA.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\ProjectA\ProjectA.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.25

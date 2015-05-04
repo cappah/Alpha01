@@ -1,0 +1,54 @@
+﻿Build started 4/16/2015 9:39:58 AM.
+     1>Project "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\libvorbis\libvorbis.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /sdl- /O2 /Ob2 /Oi /Ot /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _USE_MATH_DEFINES /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\\" /Fd"C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\analysis.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\bitrate.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\block.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\envelope.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\floor0.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\floor1.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\info.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\lookup.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\lpc.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\lsp.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\mapping0.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\mdct.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\psy.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\registry.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\res0.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\smallft.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\synthesis.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\tone.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\vorbisenc.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\vorbisfile.c" "..\..\..\..\..\..\..\C++ Libraries\Sparkies\Episode 24\Sparky-master\Dependencies\libvorbis\lib\window.c"
+         analysis.c
+         bitrate.c
+         block.c
+         envelope.c
+         floor0.c
+         floor1.c
+         info.c
+         lookup.c
+         lpc.c
+         lsp.c
+         mapping0.c
+         mdct.c
+         psy.c
+         registry.c
+         res0.c
+         smallft.c
+         synthesis.c
+         tone.c
+         vorbisenc.c
+         vorbisfile.c
+         Compiling...
+         window.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\lib\libvorbis.lib" /NOLOGO /LTCG "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\analysis.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\bitrate.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\block.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\envelope.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\floor0.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\floor1.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\info.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\lookup.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\lpc.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\lsp.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\mapping0.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\mdct.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\psy.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\registry.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\res0.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\smallft.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\synthesis.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\tone.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\vorbisenc.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\vorbisfile.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\intermediates\window.obj"
+         libvorbis.vcxproj -> C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\Dependencies\libvorbis\lib\libvorbis.lib
+     1>Done Building Project "C:\Users\Paul\documents\visual studio 2013\Projects\ProjectA\libvorbis\libvorbis.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91
