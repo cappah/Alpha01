@@ -1,18 +1,21 @@
-﻿Build started 5/3/2015 4:57:46 PM.
+﻿Build started 5/10/2015 1:55:22 PM.
      1>Project "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\Alpha01\Alpha01.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\) contains files shared from another project (ProjectA.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\\" /Fd"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp main.cpp
-         game.cpp
-     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
-                 c:\users\paul\documents\visual studio 2013\projects\alpha01\dependencies\sdl2\include\sdl_stdinc.h(350) : see previous definition of 'M_PI'
-     1>c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\game.cpp(28): warning C4316: 'gearengine::model::Model' : object allocated on the heap may not be aligned 16
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\\" /Fd"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Terrain.cpp game.cpp main.cpp
+         Terrain.cpp
+     1>c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\ttexloader.h(7): warning C4005: 'FOR' : macro redefinition
+                 c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\commons.h(15) : see previous definition of 'FOR'
+     1>c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\ttexloader.h(8): warning C4005: 'SFOR' : macro redefinition
+                 c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\commons.h(16) : see previous definition of 'SFOR'
+     1>c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\ttexloader.h(9): warning C4005: 'RFOR' : macro redefinition
+                 c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\commons.h(17) : see previous definition of 'RFOR'
+     1>c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\ttexloader.h(10): warning C4005: 'RSFOR' : macro redefinition
+                 c:\users\paul\documents\visual studio 2013\projects\alpha01\alpha01\commons.h(18) : see previous definition of 'RSFOR'
          Generating Code...
-         Compiling...
+         Skipping... (no relevant changes detected)
          main.cpp
-     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1298): warning C4005: 'M_PI' : macro redefinition
-                 c:\users\paul\documents\visual studio 2013\projects\alpha01\dependencies\sdl2\include\sdl_stdinc.h(350) : see previous definition of 'M_PI'
-         Generating Code...
+         game.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Alpha01.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib glew32s.lib opengl32.lib FreeImage.lib SDL2_mixer.lib assimp.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Alpha01.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Alpha01.lib" /MACHINE:X86 "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\buffer.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\platform.obj"
@@ -61,20 +64,17 @@
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\font.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\font_manager.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\game.obj"
-         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\GLSLShader.obj"
-         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\GModel.obj"
-         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\GTexture.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\indexbuffer.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\main.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\mat4.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\Mesh.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\Model.obj"
-         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\ModelMesh.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\ModelShader.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\Quaternion.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\shader.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\Terrain.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\texture.obj"
+         "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\TTexLoader.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\vec2.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\vec3.obj"
          "C:\Users\Paul\documents\visual studio 2013\Projects\Alpha01\bin\Debug\Intermediates\vec4.obj"
@@ -91,4 +91,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.51
+Time Elapsed 00:00:01.75

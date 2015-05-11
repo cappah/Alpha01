@@ -1,4 +1,4 @@
-#version 420
+#version 330
 
 #include_part
 
@@ -17,6 +17,6 @@ vec4 GetDirectionalLightColor(DirectionalLight dirLight, vec3 vNormal);
 vec4 GetDirectionalLightColor(DirectionalLight dirLight, vec3 vNormal)
 {
 	float fDiffuseIntensity = max(0.0, dot(vNormal, -dirLight.vDirection));
-	float fMult = clamp(dirLight.fAmbient+fDiffuseIntensity, 0.0, 1.0);
-	return vec4(dirLight.vColor*fMult, 1.0);
+	float fMult = clamp(dirLight.fAmbient + fDiffuseIntensity, 0.0, 1.0);
+	return vec4(dirLight.vColor * fMult, 1.0);
 }

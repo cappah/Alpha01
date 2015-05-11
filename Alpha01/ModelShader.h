@@ -34,11 +34,14 @@ namespace gearengine
 			void setUniform3f(const GLchar* name, const glm::vec3& vector);
 			void setUniform4f(const GLchar* name, const glm::vec4& vector);
 			void setUniformMat4(const GLchar* name, const glm::mat4& matrix);
+			void setModelAndNormalMatrix(const GLchar* modelName, const GLchar* normalName, const glm::mat4& modelMatrix);
+			
 
 			GLuint operator[](const std::string& attribute) { return mAttributeList[attribute]; }
 			GLuint operator()(const std::string& uniform) { return mUniformList[uniform]; }
 			void linkProgram();
 			void DeleteShaderProgram();
+			GLuint getProgram() { return mProgram; }
 
 		private:
 			enum ShaderType

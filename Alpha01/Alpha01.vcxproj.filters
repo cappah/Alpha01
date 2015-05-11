@@ -213,9 +213,6 @@
     <ClCompile Include="font_manager.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="GModel.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
     <ClCompile Include="indexbuffer.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
@@ -258,20 +255,14 @@
     <ClCompile Include="Model.cpp">
       <Filter>Source Files\Model</Filter>
     </ClCompile>
-    <ClCompile Include="GLSLShader.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
     <ClCompile Include="Terrain.cpp">
       <Filter>Source Files\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="GTexture.cpp">
-      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
     <ClCompile Include="ModelShader.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="ModelMesh.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="TTexLoader.cpp">
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -368,9 +359,6 @@
     <ClInclude Include="timer.h">
       <Filter>Header Files\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="GModel.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
     <ClInclude Include="Window.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
@@ -389,42 +377,24 @@
     <ClInclude Include="Model.h">
       <Filter>Header Files\Model</Filter>
     </ClInclude>
-    <ClInclude Include="GLSLShader.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
     <ClInclude Include="Terrain.h">
       <Filter>Header Files\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="GTexture.h">
-      <Filter>Header Files\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="ModelShader.h">
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="ModelMesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ReferenceCounter.h">
       <Filter>Header Files\Utils</Filter>
     </ClInclude>
+    <ClInclude Include="TTexLoader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic.frag">
-      <Filter>Shaders</Filter>
-    </None>
-    <None Include="basic.vert">
-      <Filter>Shaders</Filter>
-    </None>
     <None Include="modelvert.glsl">
       <Filter>Shaders</Filter>
     </None>
     <None Include="modelfrag.glsl">
-      <Filter>Shaders</Filter>
-    </None>
-    <None Include="lampvert.glsl">
-      <Filter>Shaders</Filter>
-    </None>
-    <None Include="lampfrag.glsl">
       <Filter>Shaders</Filter>
     </None>
     <None Include="terrainvert.glsl">
@@ -436,10 +406,10 @@
     <None Include="dirLightFrag.glsl">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="camfrag.glsl">
+    <None Include="terrainVert2.glsl">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="camvert.glsl">
+    <None Include="terrainFrag2.glsl">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>

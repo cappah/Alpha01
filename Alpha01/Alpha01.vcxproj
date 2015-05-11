@@ -126,20 +126,17 @@
     <ClCompile Include="font.cpp" />
     <ClCompile Include="font_manager.cpp" />
     <ClCompile Include="game.cpp" />
-    <ClCompile Include="GLSLShader.cpp" />
-    <ClCompile Include="GModel.cpp" />
-    <ClCompile Include="GTexture.cpp" />
     <ClCompile Include="indexbuffer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat4.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Model.cpp" />
-    <ClCompile Include="ModelMesh.cpp" />
     <ClCompile Include="ModelShader.cpp" />
     <ClCompile Include="Quaternion.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="Terrain.cpp" />
     <ClCompile Include="texture.cpp" />
+    <ClCompile Include="TTexLoader.cpp" />
     <ClCompile Include="vec2.cpp" />
     <ClCompile Include="vec3.cpp" />
     <ClCompile Include="vec4.cpp" />
@@ -167,9 +164,6 @@
     <ClInclude Include="font_manager.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="gear_engine.h" />
-    <ClInclude Include="GLSLShader.h" />
-    <ClInclude Include="GModel.h" />
-    <ClInclude Include="GTexture.h" />
     <ClInclude Include="ImageLoad.h" />
     <ClInclude Include="indexbuffer.h" />
     <ClInclude Include="mat4.h" />
@@ -177,7 +171,6 @@
     <ClInclude Include="maths_func.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
-    <ClInclude Include="ModelMesh.h" />
     <ClInclude Include="ModelShader.h" />
     <ClInclude Include="Quaternion.h" />
     <ClInclude Include="ReferenceCounter.h" />
@@ -186,6 +179,7 @@
     <ClInclude Include="Terrain.h" />
     <ClInclude Include="texture.h" />
     <ClInclude Include="timer.h" />
+    <ClInclude Include="TTexLoader.h" />
     <ClInclude Include="vec2.h" />
     <ClInclude Include="vec3.h" />
     <ClInclude Include="vec4.h" />
@@ -193,17 +187,13 @@
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic.frag" />
-    <None Include="basic.vert" />
-    <None Include="camfrag.glsl" />
-    <None Include="camvert.glsl" />
     <None Include="dirLightFrag.glsl" />
-    <None Include="lampfrag.glsl" />
-    <None Include="lampvert.glsl" />
     <None Include="modelfrag.glsl" />
     <None Include="modelvert.glsl" />
     <None Include="terrainfrag.glsl" />
+    <None Include="terrainFrag2.glsl" />
     <None Include="terrainvert.glsl" />
+    <None Include="terrainVert2.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

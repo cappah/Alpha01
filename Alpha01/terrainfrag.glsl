@@ -1,9 +1,17 @@
 #version 330 core
  
-layout (location=0) out vec4 vFragColor;	//fragment shader output
+layout (location = 0) out vec4 color;
+
+smooth in vec2 TexCoord;
+smooth in vec3 Normal;
+
+uniform sampler2D tex;
+
+
 
 void main()
 {
-	//output solid white color as fragment output
-   vFragColor = vec4(1,1,1,1);
+	vec3 normalized = normalize(Normal);
+
+	color = texture(tex, TexCoord);
 }

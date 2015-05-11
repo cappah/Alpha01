@@ -28,18 +28,21 @@ namespace gearengine
 		model = new Model(*shader, "resources/objects/nanosuit/nanosuit.obj");
 		model->setModelPlacement(glm::vec3(0.0f, 0.0f, 3.0f), 0.2f, 45.0f);
 
-		//terrainShader = ModelShader();
-		//terrain = new Terrain(terrainShader, "heightmap512x512.png");
+		terrainShader = ModelShader();
+		terrain = new Terrain(terrainShader, "heightmap512x512.png", "textures/props/cratepng.png");
+		
 		
 
 		projectionMatrix = glm::perspective(45.0f, (float)WIDTH / (float)HEIGHT, 0.1f, 1000.0f);
 		viewMatrix = glm::lookAt(
-			glm::vec3(0.f, 5.f, -5.f),  // Camera position
+			glm::vec3(0.f, 5.f, -15.f),  // Camera position
 			glm::vec3(0, 0, 0),			// Camera target
 			glm::vec3(0, 1, 0));		// Camera orientation (up)
-		
+
 		model->init(projectionMatrix, viewMatrix);
-		//terrain->init(projectionMatrix, viewMatrix, glm::vec3(0, 0, 0));
+		terrain->init(projectionMatrix, viewMatrix, glm::vec3(0, 0, 0));
+		
+
 
 		// Initialize music
 		if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
@@ -64,9 +67,6 @@ namespace gearengine
 	void Game::update()
 	{
 		window->clear();
-
-
-		
 
 		while (SDL_PollEvent(&event))
 		{
@@ -110,8 +110,10 @@ namespace gearengine
 
 
 	void Game::render()
-	{			
-		//terrain->draw();
+	{	
+		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+		terrain->draw();
+		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 		model->draw();
 	}	
 }

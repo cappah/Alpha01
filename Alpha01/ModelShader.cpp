@@ -174,6 +174,13 @@ namespace gearengine
 		}
 
 
+		void ModelShader::setModelAndNormalMatrix(const GLchar* modelName, const GLchar* normalName, const glm::mat4& modelMatrix)
+		{
+			setUniformMat4(modelName, modelMatrix);
+			setUniformMat4(normalName, glm::transpose(glm::inverse(modelMatrix)));
+		}
+
+
 		void ModelShader::enable() const
 		{
 			glUseProgram(mProgram);

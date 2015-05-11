@@ -1,6 +1,11 @@
 #version 330 core
   
 layout (location = 0) in vec3 position; //vertex position in object space
+layout (location = 1) in vec2 texCoord;
+layout (location = 2) in vec3 normal;
+
+out vec2 TexCoord;
+out vec3 Normal;
 
 //uniforms
 uniform mat4 MVP;					//combined modelview projection matrix
@@ -20,5 +25,8 @@ void main()
 	vec2 pos = (position.xz * 2.0 - 1) * HALF_TERRAIN_SIZE;
 
 	//mulitply the modelview projection matrix with the scaled position and height
-	gl_Position = MVP * vec4(pos.x, height, pos.y, 1);			
+	gl_Position = MVP * vec4(pos.x, height, pos.y, 1);	
+	
+	TexCoord = texCoord;
+	Normal = normal;		
 }
